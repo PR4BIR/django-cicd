@@ -1,0 +1,39 @@
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+April 26, 2024 - 19:46:05
+Django version 5.0.4, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[26/Apr/2024 19:47:08] code 400, message Bad request version ('-\x07Q²57\x1a+cw"Ó¾¾P\x10\x8cp\x00\x11\x12RË#\x96¿Ä¨\x99E%ô\x9aFXÆh&aBz!C|j/ó££Î\x07\x82à1w¤µ¦2¡,~\x02/´6,\x89É2û|0õ++xÖvÒ¶fY÷&2:\x8fDE\x95åw5¸±\x820Ó\x08\x13´\xad]R\x93Ui')
+[26/Apr/2024 19:47:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Apr/2024 19:47:08] "GET / HTTP/1.1" 302 0
+[26/Apr/2024 19:47:09] code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[26/Apr/2024 19:47:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Apr/2024 19:47:09] "GET /todos HTTP/1.1" 301 0
+[26/Apr/2024 19:47:09] "GET /todos/ HTTP/1.1" 200 3515
+[26/Apr/2024 19:47:10] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[26/Apr/2024 19:47:10] "GET /favicon.ico HTTP/1.1" 404 2574
+[26/Apr/2024 19:47:18] "POST /todos/add/ HTTP/1.1" 302 0
+[26/Apr/2024 19:47:18] "GET /todos/ HTTP/1.1" 200 4097
+[26/Apr/2024 19:49:25] "GET / HTTP/1.1" 302 0
+[26/Apr/2024 19:49:25] "GET /todos/ HTTP/1.1" 200 4097
+[26/Apr/2024 20:14:49] "GET /todos/ HTTP/1.1" 200 4097
+[26/Apr/2024 20:14:53] "GET /todos/ HTTP/1.1" 200 4097
